@@ -284,9 +284,13 @@ Sending data every 30 minutes is a strategic choice to balance battery life and 
 ![notification](pictures/notification.png)
 
 When there's an update to the limit switch (Meaning there's mail in the mailbox), Adafruit will send a email to my registered email to notify me there's mail. 
+
 # Final thoughts
 The project began with a goal: to use an ESP8266 microcontroller to monitor the outside temperature and receive notifications when mail arrives. This aligns with the broader aim of leveraging smart technology to simplify everyday tasks, which is seen as a valuable use of modern advancements.
 
 One challenge was that I intended to do was design of a 3D case. Due to a lack of expertise in 3D modeling and insufficient time to develop this skill, a custom case could not be created. 
+Another thing that would be great to add to this project is the capability for the user to dynamicly change the WiFi credentials.  Implementing a mechanism to allow users to update WiFi credentials through a web interface or a mobile app would enhance the user experience significantly. This could be achieved by setting up the ESP8266 to start in Access Point (AP) mode, allowing users to connect directly to it and enter new WiFi credentials. Once the credentials are submitted, the ESP8266 can switch to Station mode and connect to the specified network. This approach would eliminate the need for hardcoding network information and provide a seamless method for users to manage their device's connectivity.
+
+The current codebase has little to no error handling, which is a significant limitation that should be addressed in a future update. Implementing comprehensive error handling mechanisms would greatly enhance the stability and reliability of the system. This improvement could be included in a version 2 release, potentially alongside the development of a 3D-printed case to provide better aesthetic appeal for the device.
 
 Additionally, there were thoughts on further improving the project by incorporating additional sensors. For instance, adding a DHT11 sensor would allow for humidity measurement, providing more comprehensive environmental data. Another potential enhancement was the inclusion of a lux sensor to measure sunlight, which could offer valuable insights for various applications.
