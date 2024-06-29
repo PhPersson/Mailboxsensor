@@ -110,7 +110,7 @@ After installing, you will have esptool.py installed onto your system and you sh
 2. 
 
 
-If these instructions are not clear enough. This ![guide](https://www.youtube.com/watch?v=39Om3EImXaM) shows an example of code is uploaded to an microcontroller using pymark.
+If these instructions are not clear enough. This [guide](https://www.youtube.com/watch?v=39Om3EImXaM) shows an example of code is uploaded to an microcontroller using pymark.
 
 
 # Putting everything together
