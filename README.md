@@ -263,6 +263,7 @@ while True:
     deep_sleep(1800000)
 ```
 
+The provided code in this repo is not fully complete. This is made by choice, this repo *should* be seen more than a guide, then a complete product. 
 
 
 # Connectivity
@@ -281,10 +282,11 @@ Sending data every 30 minutes is a strategic choice to balance battery life and 
 
 ## Automation/triggers of the data.
 ![notification](pictures/notification.png)
+
 When there's an update to the limit switch (Meaning there's mail in the mailbox), Adafruit will send a email to my registered email to notify me there's mail. 
 # Final thoughts
 The project began with a goal: to use an ESP8266 microcontroller to monitor the outside temperature and receive notifications when mail arrives. This aligns with the broader aim of leveraging smart technology to simplify everyday tasks, which is seen as a valuable use of modern advancements.
 
-One challenge was the design of a 3D case. Due to a lack of expertise in 3D modeling and insufficient time to develop this skill, a custom case could not be created. This was a notable setback, as a well-designed case would have enhanced the overall aesthetics of this project.
+One challenge was that I intended to do was design of a 3D case. Due to a lack of expertise in 3D modeling and insufficient time to develop this skill, a custom case could not be created. 
 
 Additionally, there were thoughts on further improving the project by incorporating additional sensors. For instance, adding a DHT11 sensor would allow for humidity measurement, providing more comprehensive environmental data. Another potential enhancement was the inclusion of a lux sensor to measure sunlight, which could offer valuable insights for various applications.
